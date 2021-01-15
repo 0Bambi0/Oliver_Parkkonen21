@@ -1,3 +1,16 @@
+body {
+    background-color: aquamarine;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    color: rgb(236, 157, 59);
+  }
+
+h1 {
+    font-size: 16px;
+    color: red;
+    border-bottom: 4px solid red;
+}
+
 h3 {
     color: coral;
     font-style: oblique;
@@ -5,4 +18,24 @@ h3 {
 article > h3{
     background-color: midnightblue;
     
+}
+
+a {
+color: hotpink;
+}
+
+a:hover {
+background-color: blueviolet
+}
+
+figure {
+    border: 1px solid;
+    padding: 4px;
+    margin: auto;
+}
+
+figcaption {
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
 }
